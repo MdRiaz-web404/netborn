@@ -1050,14 +1050,15 @@
 
 }
 @media (min-width: 300px) and (max-width: 330px){
-.choosing_tabs .c_card {
-    width: 320px;
-    margin-left: -10px;
-}
-.choosing_tabs .c_card {
-    width: 320px;
-    margin-left: 0;
-}
+    .choosing_tabs .c_card {
+        width: 320px;
+        margin-left: -10px;
+    }
+    .choosing_tabs .c_card {
+        width: 320px;
+        margin-left: 0;
+    }
+    .card_2_img img{ width:100% }
 }
 /* 
 |
