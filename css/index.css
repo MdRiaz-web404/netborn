@@ -238,7 +238,19 @@ nav ul li a:hover{
     width: 750px;
     right: -180px;
     top: -240px;
-
+    animation: c_float_up 4s infinite ease-in-out;
+    -webkit-animation: c_float_up 4s infinite ease-in-out;
+}
+@keyframes c_float_up {
+    0%{
+        top: -240px;
+    }
+    50%{
+        top: -270px;
+    }
+    100%{
+        top: -240px;
+    }
 }
 .bnr_shape span:nth-child(1){
     display: block;

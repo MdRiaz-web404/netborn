@@ -125,7 +125,10 @@ nav ul li a{
     right: -22px;
     top: -480px !important;
     z-index: 1;
+
 }  
+
+
 #banner_sec .bnr_txt h2{
     font-size: 30px;
 }  
@@ -957,6 +960,19 @@ header p{
     width: 137%;
     right: -22px;
     top: -380px !important;
+    animation: c_float_up 4s infinite ease-in-out;
+    -webkit-animation: c_float_up 4s infinite ease-in-out;
+}
+@keyframes c_float_up {
+    0%{
+        top: -380px;
+    }
+    50%{
+        top: -420px;
+    }
+    100%{
+        top: -380px;
+    }
 }
 #banner_sec .bnr_txt .p{
     font-size: 12px;
